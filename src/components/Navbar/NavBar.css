@@ -1,0 +1,41 @@
+/* 
+Brightly Orange Number 2: #f43a09
+Grandpa Orange: #ffb766
+Grey Blue Green: #c2edda
+Live Green: #68d388
+*/
+
+.navbar {
+  background-color: #dfc1a8;
+}
+
+.navLink {
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  color: #6b7a8f;
+  /* color: #374f6e; */
+  /* color: #353e4a; */
+}
+
+.navLink:hover {
+  color: aliceblue;
+}
+
+.products-container {
+  position: relative;
+}
+
+.card-container {
+  position: relative;
+}
+.cart-container {
+  position: fixed;
+  z-index: 2;
+  right: 0;
+  top: 0;
+  width: 400px;
+  height: 100vh;
+  background-color: #b69981d4;
+  overflow-y: auto;
+}
